@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a2d9b9f9c9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="top-heading">
+            <h2>
+                <span><i class="fas fa-shopping-cart"></i></span> Grocery List
+            </h2>
+            <p>Manage your shopping list with ease</p>
+            <h5 class="totall-items-txt">Overall items to purchase: <span class="total-items">0</span> </h5>
+            <div class="container">
+                <h4><span class="total-item">0</span> Products added</h4>
+                <div class="input-items">
+                    <div class="add-input">
+                        <input type="text" name="item" placeholder="Enter item" id="input_product">
+                    </div>
+
+                    <div class="add-btn" >
+                        <button onclick="add_item()"  id="add-item-btn">
+                            Add
+                        </button>
+                    </div>
+                </div>
+                <div class="all-products">
+                    <ul id="list_all_products">
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
